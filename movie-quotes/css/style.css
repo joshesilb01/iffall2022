@@ -1,0 +1,77 @@
+p{
+font-family:'Lucida Console', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, monospace;
+font-weight:100;
+font-size:medium;
+color:brown;
+
+}
+
+.w-cen-align{
+text-align: center;
+
+}
+
+.i-cen-align{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+h1{
+color:red;
+font-size: 6em;
+}
+
+
+h2{
+color:papayawhip;
+
+}
+
+body{
+background-color: black;
+
+}
+
+.quote{
+line-height: 26px;
+margin: 32px;
+border: solid;
+padding: 16px;
+border-width: 5px;
+border-radius:var(start)-5px;
+border-color:brown;
+text-align:start;
+background-color: papayawhip;
+}
+
+
+.tab{
+text-indent:4ch
+}
+
+
+b.peter{
+    color:cornflowerblue;
+}
+
+b.dana{
+    color:violet
+}
+
+b.mayor{
+    color:purple
+}
+
+b.ray{
+    color:tomato
+}
+
+b.egon{
+    color:green
+}
+
+b.winston{
+    color:goldenrod
+}
