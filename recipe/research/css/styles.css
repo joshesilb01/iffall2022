@@ -1,0 +1,60 @@
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li{
+    line-height:22px;
+    font-size: 16px;
+
+}
+
+ol{
+    line-height:14px;
+    font-size:16px;
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:100px;
+    text-decoration:underline;
+    text-align: center;
+}
+
+h2{
+    font-size:28px;
+    letter-spacing:.08em;
+    margin-bottom:36px;
+
+}
+
+h3{
+    font-style:italic;
+    margin-top:32px;
+}
+
+h3,li,p{
+    text-indent:12px;
+}
+
+.columns {
+    Width: 100%;
+    column-gap: 10px;
+}
+
+.column {
+    width:100%;
+}
+
+@media (min-width: 48em) {
+    .column {
+        width: 50%;
+        float:left;
+    }
+    .columns {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
