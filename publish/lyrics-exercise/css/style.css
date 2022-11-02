@@ -1,0 +1,49 @@
+p{
+color:palevioletred;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight:2px;
+}
+
+i{
+    font-size:12px;
+}
+
+p,h1,h2,audio{
+    
+    text-align:center;
+}
+
+h1{
+    font-size: 75px;
+    line-height: 60%;
+    color:plum;
+    font-family:Lucida Handwriting;
+}
+
+h2{
+    color:pink;
+    font-size:30px;
+    font-family:Lucida Handwriting;
+}
+
+p.chorus{
+font-weight:bold;
+}
+
+.song{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.bkimg{
+background-image:url(RainbowUnicorn.png); 
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.copyright{
+    font-size:10px;
+}

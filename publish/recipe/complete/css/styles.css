@@ -1,0 +1,617 @@
+html{
+    background-image:url(images/hotchicks.jpg);
+    background-repeat: repeat;
+    background-size: 18%;
+    font-family: rigatoni, sans-serif;
+    font-weight: 600;
+    color: #ee2a29;
+    font-style: normal;
+    font-size:26px;
+    letter-spacing:1.2px;
+    align-items: center;
+    align-content:center;
+    text-align: left;
+}
+
+
+a{
+    color:#ac2e3b;
+}
+
+header{
+    align-content:center;
+    margin:0;
+}
+
+.content-area{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#f3f2ee;
+    padding:15px 20px;
+
+}
+
+u{
+    text-decoration-color:#781214;
+}
+
+h1{
+    width:80%;
+    font-family: jaf-bernino-sans-comp, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size:90px;
+    color: white;
+    text-align:center;
+    background-color: #ed1f33;
+    margin: 0 auto 0 auto;
+    padding: 36px;
+    letter-spacing:2.5px;
+}
+
+h2{
+    font-size:50px;
+    font-family: jaf-bernino-sans-comp, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing:2.8px;
+    color:#ed1f33;
+    margin:0;
+}
+
+h3{
+    font-size:28px;
+    line-height:30px;
+    font-family: temeraire, serif;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -0.6px;
+    color:#781214;
+    margin-top:10px;
+}
+
+body{
+    margin:0;
+}
+
+
+p{
+    padding:5px;
+}
+
+footer p{
+    color:#f3f2ee;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:.5rem;
+    background-color:#ed1f33;
+    margin-bottom:0;
+    margin-top:5%;
+    padding-top:5%;
+}
+
+.allergens{
+    color:black;
+}
+
+#mat p{
+    margin-top: 0;
+}
+
+p.allergens img:first-child{
+    width:16%;
+    margin-bottom:-4px;
+}
+
+p.allergens img:last-child{
+    width:20%;
+    margin-bottom:-3px;
+}
+
+.allergens img{
+    width:27%;
+    margin-bottom:-2px;
+}
+
+#finalproductpic img{
+    padding:18px;
+    background-color:#ed1f33;;
+    width:70%;
+    display:flex;
+    margin-top:-20px;
+    margin-bottom:-18px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+#instructions i{
+    color: #ac2e3b;
+}
+
+ul{
+    padding:0;
+    margin:0;
+}
+
+
+section ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size:0.8rem;
+    padding:0;
+}
+
+header li{
+    width:100%;
+}
+
+li{
+    display: block;
+}
+
+#ingnmats{
+    background-color:#ed1f33;
+    padding:10px;
+}
+
+#ingnmats li{
+    width:43%;
+    padding:19px;
+    
+}
+
+#ingnmats .content-area {
+  margin:0;  
+}
+
+
+#instructions{
+    background-color:#ed1f33;
+    padding:0;
+    margin-top:-2px;
+}
+
+#instructions h3{
+    color:black;
+}
+
+
+#info{
+    margin-top:-2px;
+}
+
+#info div{
+    background-color: #ed1f33;
+    color:#511112;
+    
+}
+
+#prep li{
+    width:28%;
+    padding:2.5%;
+}
+
+#instructions p,#description p,#info p, #references p{
+    line-height:1.4rem;
+}
+
+#prep img{
+    width:100%;
+    height: 33%;
+}
+
+#cook li{
+    width:46%;
+    padding:1.5%;
+}
+
+#cook li:last-of-type{
+    margin-top:30%;
+}
+
+#cook img{
+    width:90%;
+}
+
+#times li{
+    text-align:center;
+    width:50%;
+}
+
+#times h3{
+    color: #f3f2ee;
+}
+
+#info .content-area{
+    width:70%;
+}
+
+#times p{
+    font-size:1.4rem;
+}
+
+
+#description li p{
+    text-align: center;
+    color:#511112;
+}
+
+#references li{
+    width:48%;
+}
+
+#references img{
+    width:90%;
+    padding:10px;
+}
+
+#references h3{
+    letter-spacing: .05rem;
+    font-size:0.92rem;
+    margin-bottom: 2%;
+}
+
+#references p{
+    margin-top:0;
+}
+
+#othr{
+    width:96%;
+    margin-bottom:0;
+}
+
+#references li.other{
+    margin-left:5px;
+    padding:0 1.5%;
+    width:46%;
+}
+
+
+
+
+
+
+
+/*MIN WIDTHS */
+
+@media (min-width: 533px) {
+    #kitch{
+        margin-top:-500px;
+    }
+}
+
+@media (min-width: 726px) {
+    #kitch{
+        margin-top:-475px;
+    }
+    
+    #prep img{
+        width:90%;
+        height: 18%;
+    }
+}
+
+@media (min-width:770px){
+    p.allergens{
+        width:100%;
+        padding:0;
+    }
+    
+    p.allergens img:first-child{
+        width:6%;
+        margin-bottom:-4px;
+    }
+    
+    p.allergens img:last-child{
+        width:8%;
+        margin-bottom:-4px;
+    }
+    
+    .allergens img{
+        width:12%;
+        margin-bottom:-4px;
+    }
+
+    #kitch{
+        margin-top:-450px;
+    }
+}
+
+@media (min-width: 780px){
+    #ingnmats li{
+        padding:20px;
+    }
+}
+
+@media (min-width: 877px) {
+    #kitch{
+        margin-top:-400px;
+    }
+
+    #prep img{
+        width:90%;
+        height: 25%;
+    }
+
+    #refimg{
+        position: relative; 
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #refimg{    
+        content: "";
+        background-image: url(images/nashchick-fade.JPG);
+        background-size: cover;
+    }
+
+    #references li p{
+        letter-spacing:0.06em;
+        font-size:1rem;
+        margin-bottom:5%;
+    }
+    
+    #references h3{
+        text-align: center;
+        font-size:1rem;
+        
+    }
+
+    #references li:nth-child(2){
+        display:none;
+    }
+
+    #references li.other{
+        width:35%;
+    }
+
+    /* #references li h3:last-of-type{
+        margin-top:-20%;
+    } */
+
+    /* #references li.other{
+        width: 48%;
+        margin-right:48%;
+        margin-top:-20%;
+    } */
+}
+
+@media (min-width: 1200px){
+    #ingnmats li{
+        width:46%;
+        padding:14px;
+    }
+    #kitch{
+        margin-top:-375px;
+    }
+}
+
+@media (min-width: 1500px){
+    html{
+        font-size:36px;
+    }
+    h2{
+        font-size:66px;
+    }
+    h3{
+        font-size:40px;
+        line-height: 1.2rem;
+    }
+    #kitch{
+        margin-top:-500px;
+    }
+}
+
+/*MAX WIDTHS */
+
+
+
+
+
+@media(max-width:874px){
+    #prep h3{
+        padding:2.5%;
+    }
+}
+
+@media (max-width:770px){
+    p.allergens{
+        padding:0%;
+    }
+
+
+    p.allergens img:first-child{
+        width:9%;
+        margin-bottom:-4px;
+    }
+    
+    p.allergens img:last-child{
+        width:11%;
+        margin-bottom:-3px;
+    }
+    
+    .allergens img{
+        width:14%;
+        margin-bottom:-2px;
+    }
+}
+
+@media (max-width:728px){
+     p.allergens{
+        padding:8.5%;
+    }
+}
+
+@media (max-width:726px){
+    #ingnmats li{
+        width:40%;
+    }
+
+    p.allergens img:first-child{
+        width:11%;
+        margin-bottom:-4px;
+    }
+    
+    p.allergens img:last-child{
+        width:14%;
+        margin-bottom:-3px;
+    }
+    
+    .allergens img{
+        width:17%;
+        margin-bottom:-2px;
+    }
+    
+    #prep li{
+        width:30%;
+        padding:1%
+    }
+
+    #instructions p{
+        font-size:0.7rem;
+    }
+
+    #description p{
+        font-size:0.7rem;
+    }
+
+    #references p{
+        font-size:0.7rem;
+    }
+
+    #prep h3{
+        font-size:0.9rem;
+        padding:4.5%;
+        margin-bottom:-10%;
+    }
+
+    #prep img{
+        width:90%;
+        height: 16%;
+    }
+
+    #references li.other{
+        width:90%;
+        margin-left:-5%;
+    }
+
+}
+
+@media (max-width: 570px){
+    #prep img {
+    width: 90%;
+    height: 14%;
+    }
+
+    #references p{
+        font-size:0.6rem;
+    }
+}
+
+@media (max-width: 533px) {
+    h2 {
+        font-size:1.5em;
+        letter-spacing:1.8px;
+    }
+
+    #ingnmats li {
+        width: 100%;
+    }
+
+    p.allergens{
+        padding:5%;
+    }
+
+    #prep li p:first-of-type{
+        padding:0;
+        margin-top:12%;
+    }
+
+    #instructions p{
+        font-size:0.8rem;
+    }
+
+    #prep h3{
+        padding: 0;
+    }
+
+    #instructions li{
+        width:80%;
+    }
+
+    #prep li:first-child{
+        margin-bottom:-44%;
+    }
+
+    #prep img{
+        width:90%;
+        height: 30%;
+    }
+
+    #references li:nth-child(2){
+        display:none;
+    }
+
+    #references li{
+        width:90%;
+        margin-left:-5%;
+    }
+}
+
+@media (max-width: 500px) {
+   
+   
+
+    #times h3{
+        padding:10%;
+        margin-top:0;
+        margin-bottom:5%;
+    }
+
+    #times p{
+        font-size:1rem;
+        margin-top: 5%;
+        margin-bottom:10%;
+    }
+}
+
+@media (max-width:455.5px){
+
+    html{
+        background-image: none;
+        background-color: #f3f2ee;
+    }
+
+    p.allergens{
+        padding:0;
+    }
+
+    p.allergens img:first-child{
+        width:9%;
+        margin-bottom:-4px;
+    }
+    
+    p.allergens img:last-child{
+        width:11%;
+        margin-bottom:-3px;
+    }
+    
+    .allergens img{
+        width:14%;
+        margin-bottom:-2px;
+    }
+
+}
+
+@media (max-width:372px){
+    p.allergens{
+        padding:9%;
+    }
+}

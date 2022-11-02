@@ -1,0 +1,139 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 1.4;
+}
+
+.content-area{
+    width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+}
+
+.panel{
+    width:100%;
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+header{
+    height:480px;
+    background-image: url(bckgrnd-imgs/watchpoint.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#intro .content-area {
+    text-align: center;
+}
+
+ul.grid{
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: -40px;
+    margin-bottom:20px;
+}
+
+
+#grid{
+    background-color: aliceblue;
+    color:rgb(5, 15, 44);
+}
+
+
+.box{
+    display:block;
+    width:450px;
+}
+
+.grid img{
+float:left;
+margin-right:12px;
+}
+
+.grid li{
+    display:block;
+    width: 50%;
+    margin-bottom:24px;
+}
+
+
+#conclusion{
+    color:rgb(229, 154, 67);
+    background-color: rgb(2, 13, 43);
+}
+
+
+#conclusion p{
+    text-align: center;
+    font-size: 26px;
+    width: 720px;
+    margin-left: 120px;
+    margin-bottom:80px;
+}
+
+
+#footer{
+    background-color: rgb(203, 119, 28);
+}
+
+#footer p{
+    color: white;
+    margin-top:21px;
+}
+
+.box p{
+    margin-top:7px;
+}
+
+h4{
+    font-size: 20px;
+    margin:0;
+}
+
+#intro{
+    color: rgb(1, 22, 82)
+}
+
+#description p:last-child{
+margin-bottom:35px;
+}
+
+#description{
+   color:rgb(227, 226, 226);
+   background-color:rgb(35,35,91);
+}
+
+#description img{
+    float: right;
+    margin: 0px 0px 30px 45px;
+}
+
+
+
+h1{
+    font-size: 80px;
+    margin: 0;
+    margin-top: 130px;
+}
+
+h2{
+    font-size: 30px;
+    margin:0;
+    margin-top: -5px;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin:0;
+    margin-top: 20px;
+    margin-bottom:30px;
+}
+
+p{
+    font-size: 18px;
+    text-align: left;
+    margin:0;
+    margin-top:16px;
+    margin-bottom:0px;
+}
