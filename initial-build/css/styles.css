@@ -1,0 +1,60 @@
+html{
+    background-image: url(images/flowersbloom-all4.gif);
+    background-size: 260%;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+
+body{
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    font-family: puffin-arcade-liquid, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:blueviolet;
+}
+
+p{
+    font-size: 33px;
+    line-height: 0.5rem;
+    padding-top:0;
+}
+
+h2{
+    display:inline-block;
+    width: 20%;
+    font-size: 33px;
+    margin-bottom:-100px;
+    background-color:rgb(241, 196, 224);
+}
+
+img{
+    width: 40%;
+}
+
+a p{
+    font-size:55px;
+    text-decoration: underline;
+    color:violet;
+    margin:0;
+    padding-top:20px;
+}
+
+a:hover p{
+    color:aqua;
+}
+
+a:hover img{
+    opacity:0.7;
+    width:42%;
+    box-shadow: 0 0 20px rgb(176, 77, 138);
+    transition:all 0.3s;
+}
+
+a:active img{
+    opacity:1;
+    box-shadow: 0 0 20px rgb(176, 77, 138);
+    /* transform:translateX(1000px); */
+    transition:all 0.2s;
+}

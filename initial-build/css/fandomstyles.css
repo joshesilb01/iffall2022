@@ -1,0 +1,267 @@
+html{
+    background-image:url(images/trolls-bckgrnd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    margin:0;
+    font-family: basic-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration:none;
+    color: rgb(242, 96, 172);
+}
+
+a:hover{
+    color:rgb(199, 34, 119);
+}
+
+.ttl{
+    display:flex;
+    width:100%;
+    background-color:rgb(255, 219, 244);
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display:block;
+    width:75%;
+    font-family: puffin-arcade-liquid, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    margin:0;
+    margin-left:5%;
+    padding:25px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.tbar{
+    color:rgb(237, 68, 155);
+}
+
+/* .nv{
+    margin-top:-1px;
+} */
+
+.ttl i{
+    font-size:50px;
+    float:left;
+}
+
+.nv ul{
+    display:inline-flex;
+    width:95%;
+    list-style: none;
+    font-family: puffin-arcade-nerf, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 44px;
+    margin:0;
+    background:none;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 0;
+}
+
+.nv li{
+    display:inline-flex;
+    border-radius:15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin:0;
+    margin-top:-1px;
+    background-color:rgb(254, 161, 224);
+    color:rgb(183, 45, 116);
+    padding: 11px 18%;
+    font-family: puffin-arcade-regular, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    /* box-shadow: 0 0 5px rgb(183, 45, 116); */
+}
+
+.nv li#sel{
+    margin:0;
+    margin-top:-2px;
+    padding-bottom:15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 33px;
+    background-color:rgb(255, 219, 244);
+    color:rgb(239, 85, 165);
+    text-decoration: underline;
+    font-size:60px;
+}
+
+.nv a:hover li{
+    color:rgb(239, 85, 165);
+    background-color: rgb(255, 219, 244);
+    text-shadow:0 12px 12px rgba(174, 46, 110, 0.477);
+}
+
+.nv a:active li{
+    font-family: puffin-arcade-liquid, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:rgb(239, 85, 165);
+    background-color: rgb(255, 219, 244);
+    text-shadow:0 10px 10px rgba(181, 63, 122, 0.477);
+}
+
+.tab{
+    width:22%;
+}
+
+#seltab{
+    margin-right:9%;
+}
+
+#gal{
+    margin-left:11%;
+    /* float:right; */
+}
+
+#gal li{
+    color:rgb(255, 219, 244);
+    background-color:rgb(183, 45, 116);
+}
+
+#gal a:hover li{
+    color:rgb(183, 45, 116);
+    background-color:rgb(255, 219, 244);
+}
+
+
+#tbeg{
+    width:5%;
+    transform:rotate(-15deg);
+}
+
+#tend{
+    width:5%;
+    transform:rotate(15deg);
+}
+
+.fan{
+    display: flex;
+    padding: 12px 32px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: flex-start;
+}
+
+
+.sec{
+    background-color:rgba(234, 165, 218, 0.754);
+    border: 25px solid rgba(233, 230, 143, 0.58);
+    color: rgb(157, 72, 130);
+    display:block;
+    width:33%;
+    margin-top:3%;
+    padding:5% 2%;
+    font-family: basic-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:22px;
+    line-height: 2.6rem;
+}
+
+#intro{
+    text-align:center;
+    width:70%;
+}
+
+#mlr,#dsn,#grm{
+    width:22%;
+}
+
+#prcs{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 66%;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+#gen{
+    width:80%;
+}
+
+.pr{
+    width:28%;
+}
+
+#clxns{
+    text-align:center;
+    width:70%;
+}
+
+
+@media(min-width:1120px){
+    #seltab{
+        margin-right:5%;
+    }
+    .nv ul{
+        width:95%;
+    }
+    
+    .nv li{
+        margin-left: 19%;
+        padding:11px 21%;
+    }
+
+    #gal{
+        margin-left: 12%;
+        padding: 0px 5%;
+    }
+
+}
+
+@media(min-width:1440px){
+    .nv ul{
+        width:100%;
+    }
+    
+    .nv li{
+        margin-left:22%;
+        padding:11px 25%;
+    }
+    .tab{
+        width:25%;
+    }
+    
+    #seltab{
+        margin-right:3%;
+    }
+    
+    #gal{
+        margin-left: 16%;
+        padding: 0 6%;
+    }
+}
+
+footer{
+    width:100%;
+    background-color: rgb(234, 165, 218);
+    color:midnightblue;
+    font-family: puffin-arcade-foozle, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align:left;
+    margin-top:30px;
+    line-height:1rem;
+    padding:1% 0;
+}
+
+footer p{
+    margin-bottom:0;
+    margin-left:1%;
+}
