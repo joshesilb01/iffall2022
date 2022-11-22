@@ -17,7 +17,9 @@ a:hover{
     color:rgb(199, 34, 119);
 }
 
-.ttl{
+#ttl{
+    z-index:5;
+    color:rgb(237, 68, 155);
     display:flex;
     width:100%;
     background-color:rgb(255, 219, 244);
@@ -39,15 +41,13 @@ h1{
     text-align: center;
 }
 
-.tbar{
-    color:rgb(237, 68, 155);
+.nv{
+    position:sticky;
+    top:0;
+    z-index: 3;
 }
 
-/* .nv{
-    margin-top:-1px;
-} */
-
-.ttl i{
+#ttl i{
     font-size:50px;
     float:left;
 }
@@ -144,15 +144,85 @@ h1{
     transform:rotate(20deg);
 }
 
+.cntnt{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec{
+    background-color:rgba(234, 165, 218, 0.754);
+    border: 25px solid rgba(233, 230, 143, 0.58);
+    color: rgb(111, 46, 90);
+    display:flex;
+    width:40%;
+    margin:0 5%;
+    margin-top:3%;
+    padding:2% 1%;
+    font-family: basic-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:22px;
+    line-height: 2.6rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.san {
+    font-family: puffin-arcade-nerf, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size:500%;
+    letter-spacing: 0.4rem;
+    padding:5%;
+    margin-top:4%;
+    margin-bottom:4%;
+    color:rgb(222, 71, 71);
+    background-color: rgb(5, 78, 5);
+    border-radius: 12%;
+    border:6px solid rgb(222, 71, 71);
+    width:33%;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.secimg{
+    width: 125%;
+}
 
 p{
+    z-index:2;
+    background-color:rgba(234, 165, 218, 0.754);
+    display:flex;
+    text-align:center;
     font-family: blambot-pro, sans-serif;
     font-weight: 400;
     font-style: italic;
+    align-items: center;
+    justify-content: center;
 }
 
 img{
-    width:100%;
+    width:22%;
+}
+
+p.glss{
+    background: none;
+}
+
+#glss{
+    opacity:0.9;
+    margin-bottom:-80px;
+}
+
+.rndr{
+    width:60%;
 }
 
 
@@ -195,3 +265,20 @@ img{
     }
 }
 
+footer{
+    width:100%;
+    background-color: rgb(234, 165, 218);
+    color:midnightblue;
+    font-family: puffin-arcade-foozle, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align:left;
+    margin-top:30px;
+    line-height:1rem;
+    padding:1% 0;
+}
+
+footer p{
+    margin-bottom:0;
+    margin-left:1%;
+}

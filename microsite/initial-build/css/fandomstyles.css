@@ -20,9 +20,10 @@ a:hover{
     color:rgb(199, 34, 119);
 }
 
-.ttl{
+#ttl{
     display:flex;
     width:100%;
+    color:rgb(237, 68, 155);
     background-color:rgb(255, 219, 244);
     justify-content: center;
     align-items: center;
@@ -42,15 +43,14 @@ h1{
     text-align: center;
 }
 
-.tbar{
-    color:rgb(237, 68, 155);
-}
-
 /* .nv{
     margin-top:-1px;
 } */
-
-.ttl i{
+.nv{
+    position:sticky;
+     top:0; 
+ }
+#ttl i{
     font-size:50px;
     float:left;
 }
@@ -161,7 +161,7 @@ h1{
 .sec{
     background-color:rgba(234, 165, 218, 0.754);
     border: 25px solid rgba(233, 230, 143, 0.58);
-    color: rgb(157, 72, 130);
+    color: rgb(111, 46, 90);
     display:block;
     width:33%;
     margin-top:3%;
@@ -173,13 +173,35 @@ h1{
     line-height: 2.6rem;
 }
 
+.sec h2{
+    color: rgb(157, 72, 130);
+}
+
 #intro{
     text-align:center;
     width:70%;
 }
 
-#mlr,#dsn,#grm{
-    width:22%;
+#mlr,#dsn{
+    width:90%;
+    margin-top:8%;
+}
+
+#grm{
+    width:40%;
+}
+
+.mlrdsnflx{
+    width:40%;
+}
+
+.secimg{
+    display:flex;
+    width:36%;
+    margin: 2% 2% 0% 4%;
+    padding:0;
+    float:right;
+    border: 5px solid rgb(111, 46, 90);
 }
 
 #prcs{
@@ -199,11 +221,33 @@ h1{
     width:28%;
 }
 
-#clxns{
-    text-align:center;
+.primg{
     width:70%;
 }
 
+/* .clximg{
+    width:100%;
+    margin-top:-200px;
+    opacity:0.8;
+} */
+
+#clxns{
+    color: rgb(65, 21, 51);
+    text-align:center;
+    width:70%;
+    background-image: url(images/binoftrollz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 25px solid rgb(224 212 168);
+}
+
+/* #clxns::before{
+    background-color: rgba(234, 165, 218, 0.333);
+} */
+#clxns p{
+    background-color:rgba(234, 165, 218, 0.92);
+    padding:5%;
+}
 
 @media(min-width:1120px){
     #seltab{

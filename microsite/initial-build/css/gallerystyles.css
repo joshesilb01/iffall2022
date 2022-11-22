@@ -216,15 +216,30 @@ li#xmas img{
     margin-left:105px;
 }
 
-.weltxt img{
+/* .weltxt img{
     width:50%;
     padding:5px 20px;
-}
+} */
 
 nav ul li:active{
     font-family: puffin-arcade-loadout, sans-serif;
     font-weight: 800;
     font-style: normal;
+}
+
+.sec{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.row{
+    display:flex;
+    width:100%;
+}
+.row img{
+    width:17%;
+    padding:1%;
 }
 footer{
     width:100%;

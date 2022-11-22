@@ -1,0 +1,260 @@
+html{
+    background-image: url(images/trolls-bckgrnd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    margin:0;
+}
+
+.ttl a{
+    text-decoration:none;
+    color: rgb(242, 96, 172);
+}
+
+.ttl a:hover{
+    color:rgb(199, 34, 119);
+}
+
+.ttl{
+    display:flex;
+    width:100%;
+    background-color:rgb(255, 219, 244);
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display:block;
+    width:75%;
+    font-family: puffin-arcade-liquid, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    margin:0;
+    margin-left:5%;
+    padding:25px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+h2{
+    font-family: bd-supper, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 33px;
+    line-height:3.6rem;
+    color:rgb(41, 127, 127);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.tbar{
+    color:rgb(237, 68, 155);
+}
+
+/* .nv{
+    margin-top:-1px;
+} */
+
+
+
+.ttl i{
+    font-size:50px;
+    float:left;
+}
+
+.nv ul{
+    display:inline-flex;
+    width:95%;
+    list-style: none;
+    font-family: puffin-arcade-nerf, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 44px;
+    margin:0;
+    background:none;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 0;
+}
+
+.nv li{
+    display:inline-flex;
+    border-radius:15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin:0;
+    margin-top:-1px;
+    background-color:rgb(254, 161, 224);
+    color:rgb(183, 45, 116);
+    padding: 11px 8%;
+    font-family: puffin-arcade-regular, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    /* box-shadow: 0 0 5px rgb(183, 45, 116); */
+}
+
+.nv li#sel{
+    margin:0;
+    margin-top:-2px;
+    padding-bottom:15px;
+    background-color:rgb(255, 219, 244);
+    color:rgb(239, 85, 165);
+    text-decoration: underline;
+    font-size:60px;
+}
+
+#tbeg{
+    width:5%;
+    transform:rotate(-15deg);
+}
+
+#tend{
+    width:5%;
+    transform:rotate(15deg);
+}
+
+nav{
+    position:sticky;
+    top:40px;
+}
+
+nav ul{ 
+    font-size:42px;
+    letter-spacing: 0.13rem;
+    line-height:60px;
+    text-decoration: none;
+    list-style: none;
+    float:left;
+    display:flex;
+    width:25%;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right:0.5%;
+    margin-left:2.5%;
+}
+
+.butts{
+    display:inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:100%;
+}
+
+.butts a{
+    border-radius:20px;
+    padding: 5px 20px;
+}
+
+nav ul li{
+    text-align:center;
+    display:inline-block;
+    width:35%;
+    font-family: puffin-arcade-liquid, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+li#fan .butts a{
+    color:rgb(36, 36, 103);
+    background-color:rgba(133, 44, 241, 0.493);
+}
+
+li#his .butts a{
+    color:rgb(255, 251, 147);
+    background-color:rgba(199, 119, 40, 0.572);
+    letter-spacing: 0.18rem;
+}
+
+li#xmas .butts a{
+    color:rgb(184, 14, 14);
+    background-color:rgba(0, 128, 0, 0.564);
+}
+
+nav ul li:hover{
+    font-family: puffin-arcade-dither, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+nav li img{
+    z-index: 1000;
+    
+}
+
+li#fan img{
+    margin-right: -20px;
+    width:111%;
+    transform: rotate(-7deg);
+}
+
+li#his img{
+    margin-right: -36px;
+    margin-top:-32px;
+    width: 100%;
+    transform: rotate(20deg);
+}
+
+li#xmas img{
+    width: 100%;
+    margin-right: -25px;
+    transform: rotate(-25deg);
+}
+
+#fanbutt{
+    margin-left:166px;
+}
+
+#hisbutt{
+    margin-left:166px;
+    margin-top:-5px;
+}
+
+#xmasbutt{
+    margin-left:105px;
+}
+
+/* .weltxt img{
+    width:50%;
+    padding:5px 20px;
+} */
+
+nav ul li:active{
+    font-family: puffin-arcade-loadout, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.sec{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.row{
+    display:flex;
+    width:100%;
+}
+.row img{
+    width:17%;
+    padding:1%;
+}
+footer{
+    width:100%;
+    background-color: rgb(234, 165, 218);
+    color:midnightblue;
+    font-family: puffin-arcade-foozle, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align:left;
+    margin-top:30px;
+    line-height:1rem;
+    padding:1% 0;
+}
+
+footer p{
+    margin-bottom:0;
+    margin-left:1%;
+}
