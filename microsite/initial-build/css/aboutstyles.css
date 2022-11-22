@@ -86,6 +86,22 @@ body{
     text-align: center;
 }
 
+.fnrt a p{
+    width:100%;
+    font-family: basic-sans, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+    font-size:100%;
+    text-align:center;
+    color:rgb(49, 49, 128);
+}
+
+.fnrt a:hover p{
+    text-decoration: underline;
+    text-shadow: 0 0 1.5px rgb(49, 49, 128);
+}
+
 .fnrt img{
     width:46%;
     padding:2%;
