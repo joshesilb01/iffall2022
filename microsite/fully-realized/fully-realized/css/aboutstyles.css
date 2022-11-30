@@ -1,0 +1,274 @@
+html{
+    background-image: url(images/trolls-bckgrnd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    font-family: basic-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin:0;
+}
+
+.wel h2{
+    display:inline-block;
+    color:rgb(239, 168, 222);
+    border-radius: 11px;
+    background-color:rgb(41, 127, 127);
+    font-family: puffin-arcade-chrome, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size:400%;
+    margin:0;
+    padding: 0 2%;
+    margin-bottom:-10px;
+}
+
+.flt{
+    display:flex;
+}
+
+
+
+
+.wel{
+    margin-left: 3.5%;
+    display:flex;
+    align-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+    width:50%;
+    background-color:rgba(233, 230, 143, 0.58);
+    border: 10px solid rgba(234, 165, 218, 0.57);
+}
+.weltxt{
+    display:inline-block;
+    margin-left:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-right: 15px;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:0;
+    width:40%;
+    font-size: 75%;
+    text-align:center;
+    color:rgb(49, 49, 128);
+    background-color: rgb(234, 165, 218);
+}
+
+.wel img{
+    width:30%;
+}
+
+.fnrt{
+    margin-left:3%;
+    display:flex;
+    align-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width:35%;
+    background-color:rgba(233, 230, 143, 0.58);
+    border: 10px solid rgba(234, 165, 218, 0.57);
+}
+
+.fnrt p{
+    width: 56%;
+    margin-bottom:16px;
+    color:rgb(234, 165, 218);
+    font-family: bd-supper, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:33px;
+    display: inline-block;
+    text-align: center;
+}
+
+.fnrt a p{
+    width:100%;
+    font-family: basic-sans, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+    font-size:100%;
+    text-align:center;
+    color:rgb(49, 49, 128);
+}
+
+.fnrt a:hover p{
+    text-decoration: underline;
+    text-shadow: 0 0 1.5px rgb(49, 49, 128);
+}
+
+.fnrt img{
+    width:46%;
+    padding:2%;
+}
+
+nav ul{ 
+    font-size:42px;
+    letter-spacing: 0.13rem;
+    line-height:60px;
+    text-decoration: none;
+    list-style: none;
+    float:left;
+    display:flex;
+    width:25%;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right:0.5%;
+    margin-left:2.5%;
+}
+
+.butts{
+    display:inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:100%;
+}
+
+.butts a{
+    border-radius:20px;
+    padding: 5px 20px;
+}
+
+nav ul li{
+    text-align:center;
+    display:inline-block;
+    width:35%;
+    font-family: puffin-arcade-liquid, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+li#fan .butts a{
+    color:rgb(36, 36, 103);
+    background-color:rgba(133, 44, 241, 0.493);
+}
+
+li#his .butts a{
+    color:rgb(255, 251, 147);
+    background-color:rgba(199, 119, 40, 0.572);
+    letter-spacing: 0.18rem;
+}
+
+li#xmas .butts a{
+    color:rgb(184, 14, 14);
+    background-color:rgba(0, 128, 0, 0.564);
+}
+
+nav ul li:hover{
+    font-family: puffin-arcade-dither, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+li img{
+    z-index: 1000;
+    
+}
+
+li#fan img{
+    margin-right: -20px;
+    width:111%;
+    transform: rotate(-7deg);
+}
+
+li#his img{
+    margin-right: -36px;
+    margin-top:-32px;
+    width: 100%;
+    transform: rotate(20deg);
+}
+
+li#xmas img{
+    width: 100%;
+    margin-right: -25px;
+    transform: rotate(-25deg);
+}
+
+#fanbutt{
+    margin-left:166px;
+}
+
+#hisbutt{
+    margin-left:166px;
+    margin-top:-5px;
+}
+
+#xmasbutt{
+    margin-left:105px;
+}
+
+.weltxt img{
+    width:50%;
+    padding:5px 20px;
+}
+
+nav ul li:active{
+    font-family: puffin-arcade-loadout, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.abt{
+    color:rgb(192, 118, 175);
+    display:inline-block;
+    width:56%;
+    border: 10px solid rgba(234, 165, 218, 0.57);
+    background-color: rgba(233, 230, 143, 0.58);
+    font-size: 22px;
+    padding: 0 30px;
+}
+
+.abt h2{
+    color:rgb(41, 127, 127);
+    display:inline-flex;
+    align-content:space-around;
+    justify-items: center;
+    font-family: bd-supper, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:55px;
+    margin:0;
+    padding-top:30px;
+}
+
+.abt img{
+    width: 60%;
+    margin-top: 45px;
+    padding: 0 0 10px 30px;
+    float: right;
+}
+
+.abt li{
+    list-style: none;
+    padding-left:4.5%;
+    padding-bottom:1.5%;
+}
+
+.abt u{
+    text-decoration: none;
+    color:rgb(84, 19, 95);
+}
+
+footer{
+    width:100%;
+    background-color: rgb(234, 165, 218);
+    color:midnightblue;
+    font-family: puffin-arcade-foozle, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align:left;
+    margin-top:30px;
+    line-height:1rem;
+    padding:1% 0;
+}
+
+footer p{
+    margin-bottom:0;
+    margin-left:1%;
+}
