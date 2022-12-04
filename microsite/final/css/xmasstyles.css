@@ -1,0 +1,284 @@
+html{
+    background-image:url(images/trolls-bckgrnd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color: rgb(242, 96, 172);
+}
+
+a:hover{
+    color:rgb(199, 34, 119);
+}
+
+#ttl{
+    z-index:5;
+    color:rgb(237, 68, 155);
+    display:flex;
+    width:100%;
+    background-color:rgb(255, 219, 244);
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display:block;
+    width:75%;
+    font-family: puffin-arcade-liquid, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    margin:0;
+    margin-left: 5%;
+    padding: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.nv{
+    position:sticky;
+    top:0;
+    z-index: 3;
+}
+
+#ttl i{
+    font-size:50px;
+    float:left;
+}
+
+.nv ul{
+    display:inline-flex;
+    width:100%;
+    list-style: none;
+    font-family: puffin-arcade-nerf, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 44px;
+    margin:0;
+    background:none;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 0;
+}
+
+.nv li{
+    display:inline-flex;
+    border-radius:15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin:0;
+    margin-top:-1px;
+    background-color:rgb(254, 161, 224);
+    color:rgb(183, 45, 116);
+    padding: 11px 12%;
+    font-family: puffin-arcade-regular, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    /* box-shadow: 0 0 5px rgb(183, 45, 116); */
+}
+
+.nv li#sel{
+    margin:0;
+    margin-top:-2px;
+    padding-bottom:15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 33px;
+    background-color:rgb(255, 219, 244);
+    color:rgb(239, 85, 165);
+    text-decoration: underline;
+    font-size:60px;
+}
+
+.nv a:hover li{
+    color:rgb(239, 85, 165);
+    background-color: rgb(255, 219, 244);
+    text-shadow:0 12px 12px rgba(174, 46, 110, 0.477);
+}
+
+.nv a:active li{
+    font-family: puffin-arcade-liquid, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:rgb(239, 85, 165);
+    background-color: rgb(255, 219, 244);
+    text-shadow:0 10px 10px rgba(181, 63, 122, 0.477);
+}
+
+.tab{
+    width:22%;
+}
+
+#seltab{
+    margin-right:-1%;
+}
+
+#gal{
+    margin-left:13%;
+    /* float:right; */
+}
+
+#gal li{
+    color:rgb(255, 219, 244);
+    background-color:rgb(183, 45, 116);
+}
+
+#gal a:hover li{
+    color:rgb(183, 45, 116);
+    background-color:rgb(255, 219, 244);
+}
+
+
+#tbeg{
+    width:5%;
+    transform:rotate(-20deg);
+}
+
+#tend{
+    width:5%;
+    transform:rotate(20deg);
+}
+
+.cntnt{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec{
+    background-color:rgba(234, 165, 218, 0.754);
+    border: 25px solid rgba(233, 230, 143, 0.58);
+    color: rgb(111, 46, 90);
+    display:flex;
+    width:40%;
+    margin:0 5%;
+    margin-top:3%;
+    padding:2% 1%;
+    font-family: basic-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:22px;
+    line-height: 2.6rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.san {
+    font-family: puffin-arcade-nerf, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size:500%;
+    letter-spacing: 0.4rem;
+    padding:5%;
+    margin-top:4%;
+    margin-bottom:4%;
+    color:rgb(222, 71, 71);
+    background-color: rgb(5, 78, 5);
+    border-radius: 12%;
+    border:6px solid rgb(222, 71, 71);
+    width:33%;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.secimg{
+    width: 125%;
+}
+
+p{
+    z-index:2;
+    background-color:rgba(234, 165, 218, 0.754);
+    display:flex;
+    text-align:center;
+    font-family: blambot-pro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width:22%;
+}
+
+p.glss{
+    background: none;
+}
+
+#glss{
+    opacity:0.9;
+    margin-bottom:-80px;
+}
+
+.rndr{
+    width:60%;
+}
+
+
+
+
+@media(min-width:1120px){
+    #seltab{
+        margin-right: 3%;
+    }
+    
+    .nv li{
+        margin-left: -18%;
+        padding: 11px 17%;
+    }
+
+    #gal{
+        padding: 0 0%;
+        margin-left: 9%;
+    }
+
+}
+
+@media(min-width:1440px){
+    
+    .nv li{
+        margin-left:-3%;
+        padding:11px 25%;
+    }
+    .tab{
+        width:25%;
+    }
+    
+    #seltab{
+        margin-right:0%;
+    }
+    
+    #gal{
+        margin-left: 9%;
+        padding: 0 0%;
+    }
+}
+
+footer{
+    width:100%;
+    background-color: rgb(234, 165, 218);
+    color:midnightblue;
+    font-family: puffin-arcade-foozle, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align:left;
+    margin-top:30px;
+    line-height:1rem;
+    padding:1% 0;
+}
+
+footer p{
+    margin-bottom:0;
+    margin-left:1%;
+}
